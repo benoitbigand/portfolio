@@ -1,0 +1,112 @@
+/* Définition des paramètres de la page, 1em = 16px */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    color: #2b2b2b;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46.2em;
+    background: linear-gradient(135deg, #50a56b, #13ec66);
+}
+
+.main h1 {
+    color: white;
+    text-shadow: 8px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flex {
+    font-size: 5vw;
+}
+
+/* Paramètres de la barre de naviguation */
+
+nav {
+    min-height: 5em;
+    display: flex;
+    align-items: center;
+    background-color: #2b2b2b;
+    padding: 1em;
+}
+
+nav a {
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+}
+
+nav a::selection {
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+}
+
+.menu {
+    margin-left: 0.5em;
+}
+
+/* Fonction du logo principal */
+
+.principal {
+    width: 2.25em;
+    height: auto;
+}
+
+.principal:hover {
+    transform: rotate(270deg);
+    transition: transform 750ms ease-in-out;
+}
+
+.principal:active {
+    transform: rotate(0.5turn);
+    transition: transform 250ms ease-in-out;
+}
+
+/* Section n°1 de la page d'accueil */
+
+/* Autres paramètres du site */
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: deepskyblue;
+}
+
+/* Définition du footer */
+
+footer {
+    min-height: 2.25em;
+    font-family: "Inter", sans-serif;
+    display: grid;
+    grid-template-columns : 1fr 1.5fr;
+    align-items: center;
+    background-color: #2b2b2b;
+    color: white;
+    padding: 1em;
+}
+
+.icon {
+    width: 2em;
+    height: auto;
+    margin-right: 0.5em;
+}
+
+.icon:hover {
+    opacity: 0.8;
+}
