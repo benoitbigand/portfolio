@@ -1,0 +1,269 @@
+/* CSS Media Querries */
+
+@media only screen and (max-width: 450px) {      
+
+header {
+    top: 0;
+    position: static;
+}    
+    
+header .menu {
+    margin-bottom: 0.5em; 
+}
+
+nav {
+    flex-direction: column;
+}
+
+.main h1 {
+    font-size: 13vw;
+}
+
+.main p {
+    font-size: 4.5vw;
+}
+
+.video h2 {
+    font-size: 1.25em;
+}    
+    
+.video iframe {
+    width: 75%;
+}
+
+.icon {
+    width: 10vw;
+}
+
+.icons {
+    width: 10vw;
+}
+    
+footer p {
+    font-size: 0.75em;
+}
+
+}
+
+@media only screen and (min-width: 450px) {  
+
+    
+nav a {
+    margin-right: 0.5em;    
+}
+    
+.main h1 {
+    font-size: 4.5em;
+}
+ 
+.main p {
+    font-size: 1.5em;
+    margin-top: -1.5em;
+}  
+    
+.video h2 {
+    font-size: 1.5em;
+}
+    
+.video iframe {
+    width: 20em;
+    height: 12em;
+}
+
+.video p {
+    font-size: 1em;
+}   
+
+footer p {
+    font-size: 1em;
+}
+    
+}
+
+@media only screen and (min-width: 576px) {
+
+.main h1 {
+    font-size: 5.25em;
+}
+
+.main p {
+    font-size: 1.75em;
+}  
+    
+.video h2 {
+    font-size: 1.85em;
+}
+
+.video iframe {
+    width: 30em;
+    height: 17em;
+}
+
+.video p {
+    font-size: 1.25em;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+.float {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+} 
+
+footer {
+    grid-template-columns: 1fr 49fr;
+}    
+    
+}
+
+@media only screen and (min-width: 768px) {   
+
+.main h1 {
+    font-size: 7em;
+}
+
+.main p {
+    font-size: 2em;
+    margin-top: -2em;
+}        
+    
+.video h2 {
+    font-size: 2.5em;
+}
+    
+.video iframe {
+    width: 40em;
+    height: 23em;
+}
+    
+.video p {
+    font-size: 1.5em;
+}
+
+footer {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    
+}
+
+@media only screen and (min-width: 896px) {
+
+.main h1 {
+    font-size: 8em;
+}
+
+.main p {
+    font-size: 2.25em;
+}    
+
+.video h2 {
+    font-size: 3em;
+}
+
+.video iframe {
+    width: 50em;
+    height: 29em;
+}
+    
+.video p {
+    font-size: 1.75em;
+}  
+    
+}
+
+@media only screen and (min-width: 1024px) {
+        
+.main h1 {
+    font-size: 9em;
+}
+    
+.main p {
+    margin-top: -2.25em;
+    font-size: 2.5em;
+}
+    
+.video h2 {
+    font-size: 3.5em;
+}
+
+.video iframe {
+    width: 55em;
+    height: 32em;
+}
+    
+.video p {
+    font-size: 2em;
+}   
+    
+}
+
+@media only screen and (min-width: 1200px) {  
+    
+.main h1 {
+    font-size: 10em;
+}
+    
+.main p {
+    font-size: 2.75em;
+}
+    
+.video h2 {
+    font-size: 4em;
+}
+
+.video iframe {
+    width: 65em;
+    height: 38em;
+}
+
+.video p {
+    font-size: 2.25em;
+}
+
+}
+
+/* Hauteur d'écran */
+
+@media only screen and (min-height: 799px) {
+ 
+.main {
+    height: 74vh;
+}
+
+}
+
+@media only screen and (min-height: 919px) {
+ 
+.main {
+    height: 77.4vh;
+}
+
+}
+
+@media only screen and (min-height: 1023px) {
+ 
+.main {
+    height: 79.7vh;
+}
+
+}
+
+@media only screen and (min-height: 1199px) {
+ 
+.main {
+    height: 82.7vh;
+}
+
+}
+
+@media only screen and (min-height: 1439px) {
+ 
+.main {
+    height: 85.5vh;
+}
+
+}
