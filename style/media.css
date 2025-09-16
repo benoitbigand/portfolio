@@ -30,17 +30,9 @@ nav {
 .video iframe {
     width: 75%;
 }
-
-.icon {
-    width: 10vw;
-}
-
-.icons {
-    width: 10vw;
-}
     
 footer p {
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
 
 }
@@ -53,12 +45,11 @@ nav a {
 }
     
 .main h1 {
-    font-size: 4.5em;
+    font-size: 4em;
 }
  
 .main p {
-    font-size: 1.5em;
-    margin-top: -1.5em;
+    font-size: 1.25em;
 }  
     
 .video h2 {
@@ -72,10 +63,10 @@ nav a {
 
 .video p {
     font-size: 1em;
-}   
-
+}
+    
 footer p {
-    font-size: 1em;
+    font-size: 1.25em;
 }
     
 }
@@ -83,7 +74,7 @@ footer p {
 @media only screen and (min-width: 576px) {
 
 .main h1 {
-    font-size: 5.25em;
+    font-size: 5em;
 }
 
 .main p {
@@ -107,15 +98,16 @@ footer p {
 
 @media only screen and (max-width: 768px) {
 
+.main h1 {
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.2);
+}
+
 .float {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    display: flex;
 } 
 
 footer {
-    grid-template-columns: 1fr 49fr;
+    grid-template-columns: auto 1fr;
 }    
     
 }
@@ -123,12 +115,11 @@ footer {
 @media only screen and (min-width: 768px) {   
 
 .main h1 {
-    font-size: 7em;
+    font-size: 6em;
 }
 
 .main p {
-    font-size: 2em;
-    margin-top: -2em;
+    font-size: 2.25em;
 }        
     
 .video h2 {
@@ -143,21 +134,17 @@ footer {
 .video p {
     font-size: 1.5em;
 }
-
-footer {
-    grid-template-columns: 1fr 1fr 1fr;
-}
     
 }
 
 @media only screen and (min-width: 896px) {
 
 .main h1 {
-    font-size: 8em;
+    font-size: 7em;
 }
 
 .main p {
-    font-size: 2.25em;
+    font-size: 2.5em;
 }    
 
 .video h2 {
@@ -178,12 +165,11 @@ footer {
 @media only screen and (min-width: 1024px) {
         
 .main h1 {
-    font-size: 9em;
+    font-size: 8em;
 }
     
 .main p {
-    margin-top: -2.25em;
-    font-size: 2.5em;
+    font-size: 2.75em;
 }
     
 .video h2 {
@@ -202,13 +188,13 @@ footer {
 }
 
 @media only screen and (min-width: 1200px) {  
-    
+
 .main h1 {
     font-size: 10em;
 }
     
 .main p {
-    font-size: 2.75em;
+    font-size: 3.5em;
 }
     
 .video h2 {
@@ -222,48 +208,6 @@ footer {
 
 .video p {
     font-size: 2.25em;
-}
-
-}
-
-/* Hauteur d'écran */
-
-@media only screen and (min-height: 799px) {
- 
-.main {
-    height: 74vh;
-}
-
-}
-
-@media only screen and (min-height: 919px) {
- 
-.main {
-    height: 77.4vh;
-}
-
-}
-
-@media only screen and (min-height: 1023px) {
- 
-.main {
-    height: 79.7vh;
-}
-
-}
-
-@media only screen and (min-height: 1199px) {
- 
-.main {
-    height: 82.7vh;
-}
-
-}
-
-@media only screen and (min-height: 1439px) {
- 
-.main {
-    height: 85.5vh;
 }
 
 }
